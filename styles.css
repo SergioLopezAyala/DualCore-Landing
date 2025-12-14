@@ -7,7 +7,7 @@
 }
 
 :root {
-  --bg: #020617; /* very dark slate / almost black */
+  --bg: #020617;
   --bg-card: #050816;
   --accent: #38bdf8;
   --accent-soft: rgba(56, 189, 248, 0.1);
@@ -28,7 +28,6 @@ body {
   min-height: 100vh;
 }
 
-/* PAGE LAYOUT */
 
 .page {
   min-height: 100vh;
@@ -37,7 +36,6 @@ body {
   padding: 24px 16px;
 }
 
-/* HEADER: small logo in top-left */
 
 .header {
   position: fixed;
@@ -53,14 +51,13 @@ body {
 }
 
 .logo-img {
-  width: 80px;          /* size of the circle */
+  width: 80px;
   height: 80px;
-  border-radius: 50%;   /* makes it circular */
-  object-fit: cover;    /* crops if the image is not square */
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
 }
 
-/* If you keep text logo somewhere else, you can still use these: */
 
 .logo-mark {
   width: 34px;
@@ -84,7 +81,6 @@ body {
   color: #cbd5f5;
 }
 
-/* HERO */
 
 .hero {
   flex: 1;
@@ -103,7 +99,7 @@ body {
     135deg,
     rgba(5, 8, 22, 0.98),
     rgba(15, 23, 42, 0.96)
-  ); /* dark neutral card */
+  ); 
   box-shadow: var(--shadow-soft);
   border: 1px solid rgba(31, 41, 55, 0.9);
   backdrop-filter: blur(18px);
@@ -126,7 +122,6 @@ body {
   font-size: 14px;
 }
 
-/* SOCIAL CARDS */
 
 .social-links {
   margin-top: 24px;
@@ -173,7 +168,6 @@ body {
   );
 }
 
-/* FOOTER */
 
 .footer {
   max-width: var(--max-width);
@@ -186,7 +180,6 @@ body {
   color: #6b7280;
 }
 
-/* RESPONSIVE */
 
 @media (max-width: 600px) {
   .page {
