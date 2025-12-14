@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We’re working on something new</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="logo">
+         <img src="assets/dualcorelogo.jpeg" alt="DevCore logo" class="logo-img" />
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero-content">
+        <h1>We’re working to bring you the full experience</h1>
+        <p>
+          Our new platform is under construction. We’re polishing the details so you can enjoy a
+          faster, smarter and more intuitive experience very soon.
+        </p>
+
+        <p class="subtext">
+          In the meantime, stay connected with us on our social channels:
+        </p>
+
+        <div class="social-links">
+          <!-- Replace # with your real links and src with your own icons -->
+          <a href="#" class="social-card" target="_blank" rel="noopener noreferrer">
+            <img src="assets/twitter.jpg" alt="X (Twitter)" />
+            <span>Follow us on X</span>
+          </a>
+
+          <a href="#" class="social-card" target="_blank" rel="noopener noreferrer">
+            <img src="assets/linkedin.png" alt="LinkedIn" />
+            <span>Connect on LinkedIn</span>
+          </a>
+
+          <a href="#" class="social-card" target="_blank" rel="noopener noreferrer">
+            <img src="assets/instagram.png" alt="Instagram" />
+            <span>See more on Instagram</span>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> DevCore. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    // Just to keep the year updated automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
