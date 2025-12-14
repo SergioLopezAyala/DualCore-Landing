@@ -151,8 +151,8 @@ body {
 }
 
 .social-card img {
-  width: 26px;
-  height: 26px;
+  width: 48px;
+  height: 48px; 
   border-radius: 999px;
   object-fit: cover;
   background: #020617;
